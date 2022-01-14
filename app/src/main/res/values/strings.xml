@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sekretariat</string>
+    <string name="pokaz_uczniow">Pokaz uczniow</string>
+    <string name="pokaz_nauczycieli">Pokaz nauczycieli</string>
+    <string name="pokaz_pracownikow">Pokaz pracownikow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

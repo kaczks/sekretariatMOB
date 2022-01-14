@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/menu">
+    <fragment
+        android:id="@+id/nauczyciel2"
+        android:name="com.example.sekretariat.nauczyciel"
+        android:label="fragment_nauczyciel"
+        tools:layout="@layout/fragment_nauczyciel" >
+        <action
+            android:id="@+id/action_nauczyciel2_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/uczen"
+        android:name="com.example.sekretariat.uczen"
+        android:label="fragment_uczen"
+        tools:layout="@layout/fragment_uczen" >
+        <action
+            android:id="@+id/action_uczen_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/pracownik"
+        android:name="com.example.sekretariat.pracownik"
+        android:label="fragment_pracownik"
+        tools:layout="@layout/fragment_pracownik" >
+        <action
+            android:id="@+id/action_pracownik_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.sekretariat.menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu_to_pracownik"
+            app:destination="@id/pracownik" />
+        <action
+            android:id="@+id/action_menu_to_nauczyciel2"
+            app:destination="@id/nauczyciel2" />
+        <action
+            android:id="@+id/action_menu_to_uczen"
+            app:destination="@id/uczen" />
+    </fragment>
+</navigation>
