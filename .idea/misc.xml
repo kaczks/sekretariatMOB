@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/student/AndroidStudioProjects/sekretariat/app/src/main/res/layout/activity_main.xml" value="0.33967391304347827" />
+        <entry key="..\:/Users/student/AndroidStudioProjects/sekretariat/app/src/main/res/layout/fragment_menu.xml" value="0.33967391304347827" />
+        <entry key="..\:/Users/student/AndroidStudioProjects/sekretariat/app/src/main/res/layout/fragment_nauczyciel.xml" value="0.33967391304347827" />
+        <entry key="..\:/Users/student/AndroidStudioProjects/sekretariat/app/src/main/res/layout/fragment_pracownik.xml" value="0.33967391304347827" />
+        <entry key="..\:/Users/student/AndroidStudioProjects/sekretariat/app/src/main/res/layout/fragment_uczen.xml" value="0.33967391304347827" />
         <entry key="..\:/Users/student/AndroidStudioProjects/sekretariat/app/src/main/res/layout/uczen.xml" value="0.33967391304347827" />
       </map>
     </option>
