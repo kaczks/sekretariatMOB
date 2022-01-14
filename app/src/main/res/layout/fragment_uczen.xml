@@ -11,13 +11,14 @@
         android:id="@+id/ViewPrac"
         android:layout_width="413dp"
         android:layout_height="425dp"
-        android:text="Tutaj wyswietla sie dane Uczniow"
+        android:text="@string/tutaj_wyswietla_sie_dane_uczniow"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btnPokaz"

@@ -13,4 +13,7 @@
     <string name="pokaz_uczniow">Pokaz uczniow</string>
     <string name="pokaz_pracownikow">Pokaz pracownikow</string>
     <string name="todo">TODO</string>
+    <string name="tu_wyswietla_sie_dane_nauczycieli">Tu wyswietla sie dane Nauczycieli</string>
+    <string name="tu_wyswietla_sie_dane_pracownikow">Tu wyswietla sie dane Pracownikow</string>
+    <string name="tutaj_wyswietla_sie_dane_uczniow">Tutaj wyswietla sie dane Uczniow</string>
 </resources>
